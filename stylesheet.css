@@ -1,0 +1,23 @@
+.spotify-icon-black {
+    background-image: url("icons/spotify-black.png");
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.spotify-icon-green {
+    background-image: url("icons/spotify-green.png");
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    margin-right: 4px;
+}
+
+.spotify-icon-white {
+    background-image: url("icons/spotify-white.png");
+    background-position: center;
+    background-size: contain;
+    width: 16px;
+    margin-right: 4px;
+}

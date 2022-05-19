@@ -113,20 +113,12 @@ var SpTrayButton = GObject.registerClass(
             });
             this.ui.set("box", box);
 
-            this.ui.set(
-                "label",
-                new St.Label({
-                    text: this.settings.get_string("starting"),
-                    y_align: Clutter.ActorAlign.CENTER,
-                }),
-            );
-            this.ui.set(
-                "icon",
-                new St.Icon({
-                    icon_name: "spotify",
-                    style_class: "system-status-icon",
-                }),
-            );
+            this.ui.set("label", new St.Label({
+                text: this.settings.get_string("starting"),
+                y_align: Clutter.ActorAlign.CENTER,
+            }));
+
+            this.ui.set("icon", new St.Icon({ style_class: "spotify-icon-green" }));
             this._handleLogoDisplay();
 
             this._signals.push(
